@@ -4,7 +4,7 @@
   "description": "The auth microservice for our ticketing app",
   "main": "src/index.ts",
   "scripts": {
-    "start" : "ts-node-dev src/index.ts",
+    "start" : "ts-node-dev --poll src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Harshit Kanodia",
