@@ -18,7 +18,7 @@ Very similar to [StubHub](stubhub.com)
 ```
 .
 +-- index.ts <-- main file defining express
-|   +-- routes/
-|       +-- route1.ts
-|       +-- route2.ts
++-- routes/
+|   +-- route1.ts
+|   +-- route2.ts
 ```
