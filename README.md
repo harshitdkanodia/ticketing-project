@@ -24,6 +24,11 @@ Very similar to [StubHub](stubhub.com)
 ```
 
 ### To Run this project
+#### Requirements
+1. Docker
+2. Kubernetes
+3. Skaffold.dev
+#### Commands
 1. Run ```kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v0.46.0/deploy/static/provider/cloud/deploy.yaml ```
 2. Run ```skaffold dev ```
 
