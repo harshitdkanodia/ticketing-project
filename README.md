@@ -22,3 +22,13 @@ Very similar to [StubHub](stubhub.com)
 |   +-- route1.ts
 |   +-- route2.ts
 ```
+
+### To Run this project
+1. Run ```sh kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v0.46.0/deploy/static/provider/cloud/deploy.yaml ```
+2. Run ```sh skaffold dev ```
+
+
+### Port Mapping
+| Service | Base Route | Port |
+|---------| -----------|------|
+|Auth| /api/users/?(.*) | 3000 |
