@@ -13,3 +13,10 @@ Very similar to [StubHub](stubhub.com)
 4. When a user attempts to purchase a ticket, the ticket is 'locked' fir 15 minutes. The user has 15 minutes to enter their payment info.
 5. While locked, no other user can purchase the ticket. After 15 minutes, the ticket should 'unlock'
 6. Ticket prices can be if they are not locked
+
+### Folder Structure
+.
++-- index.ts <-- main file defining express
+|   +-- routes/
+|       +-- route1.ts
+|       +-- route2.ts

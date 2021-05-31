@@ -13,7 +13,7 @@ spec:
         app: auth
     spec:
       containers:
-        - name: ticketing-auth-service
+        - name: auth
           image: harshitdkanodia/ticketing-auth-service
 ---
 apiVersion: v1
