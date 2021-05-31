@@ -23,17 +23,17 @@ Very similar to [StubHub](stubhub.com)
 |   +-- route2.ts
 ```
 
-### To Run this project
-#### Requirements
+## To Run this project
+### Requirements
 1. Docker
 2. Kubernetes
 3. Skaffold.dev
-#### Commands
+### Commands
 1. Run ```kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v0.46.0/deploy/static/provider/cloud/deploy.yaml ``` - this applies the Nginx Ingress Service & Load Balancer
 2. Run ```skaffold dev ``` - This is for local development only
 
 
-### Port Mapping
+## Port Mapping
 | Service | Base Route | Port |
 |---------| -----------|------|
 |Auth| /api/users/?(.*) | 3000 |
