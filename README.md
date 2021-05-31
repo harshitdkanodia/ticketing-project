@@ -14,7 +14,7 @@ Very similar to [StubHub](stubhub.com)
 5. While locked, no other user can purchase the ticket. After 15 minutes, the ticket should 'unlock'
 6. Ticket prices can be if they are not locked
 
-### Folder Structure
+### Microservice Folder Structure
 ```
 .
 +-- index.ts <-- main file defining express
