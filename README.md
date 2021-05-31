@@ -18,7 +18,7 @@ Very similar to [StubHub](stubhub.com)
 ```
 .
 +-- index.ts <-- main file defining express
-+-- routes/
++-- routes/ <-- Contains all the different routes
 |   +-- route1.ts
 |   +-- route2.ts
 ```
@@ -29,8 +29,8 @@ Very similar to [StubHub](stubhub.com)
 2. Kubernetes
 3. Skaffold.dev
 #### Commands
-1. Run ```kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v0.46.0/deploy/static/provider/cloud/deploy.yaml ```
-2. Run ```skaffold dev ```
+1. Run ```kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v0.46.0/deploy/static/provider/cloud/deploy.yaml ``` - this applies the Nginx Ingress Service & Load Balancer
+2. Run ```skaffold dev ``` - This is for local development only
 
 
 ### Port Mapping
