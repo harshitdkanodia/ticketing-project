@@ -24,8 +24,8 @@ Very similar to [StubHub](stubhub.com)
 ```
 
 ### To Run this project
-1. Run ```sh kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v0.46.0/deploy/static/provider/cloud/deploy.yaml ```
-2. Run ```sh skaffold dev ```
+1. Run ```kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v0.46.0/deploy/static/provider/cloud/deploy.yaml ```
+2. Run ```skaffold dev ```
 
 
 ### Port Mapping
