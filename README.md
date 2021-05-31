@@ -15,8 +15,10 @@ Very similar to [StubHub](stubhub.com)
 6. Ticket prices can be if they are not locked
 
 ### Folder Structure
+```
 .
 +-- index.ts <-- main file defining express
 |   +-- routes/
 |       +-- route1.ts
 |       +-- route2.ts
+```
