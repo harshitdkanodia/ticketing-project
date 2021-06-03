@@ -38,7 +38,7 @@ router.post('/api/users/signup',[
     const token = jwt.sign({
         id: user.id,
         email: user.email
-    },'aosin');
+    },process.env.JWT_TOKEN!);
     req.session = {
         jwt: token
     };

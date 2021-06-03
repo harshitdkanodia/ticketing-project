@@ -30,7 +30,8 @@ Very similar to [StubHub](stubhub.com)
 3. Skaffold.dev
 ### Commands
 1. Run ```kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v0.46.0/deploy/static/provider/cloud/deploy.yaml ``` - this applies the Nginx Ingress Service & Load Balancer
-2. Run ```skaffold dev ``` - This is for local development only
+2. Create Secrets ```kubectl create secret generic jwt-secret --from-literal=JWT_TOKEN=AFSION!Nuo#n```
+3. Run ```skaffold dev ``` - This is for local development only
 
 
 ## Port Mapping

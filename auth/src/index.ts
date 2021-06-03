@@ -25,6 +25,9 @@ app.use(signupRouter);
 app.use(signinRouter);
 app.use(errorHandler);
 const start = async () => {
+    if(!process.env.JWT_TOKEN){
+        throw new Error("JWT_TOKEN not defined in Environment !");
+    }
     try {
         await mongoose.connect('mongodb://auth-mongo-srv:27017/auth', {
             useNewUrlParser: true,
