@@ -6,6 +6,7 @@ export default class BadRequestError extends CustomError{
     constructor(error:string){
         super(error);
         this.error = error;
+        Object.setPrototypeOf(this,BadRequestError.prototype);
     }
 
     serializeErrors(){
